@@ -3,12 +3,20 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
+	"homepage": "https://github.com/dsk90it/vanilla-boilerplate",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dsk90it/vanilla-boilerplate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dsk90it/vanilla-boilerplate/issues"
+	},
+	"author": "Senthilkumar Devaraj",
+	"license": "ISC",
 	"scripts": {
 		"build": "webpack --mode production",
 		"dev-server": "webpack-dev-server --mode development"
 	},
-	"author": "Senthilkumar Devaraj",
-	"license": "ISC",
 	"devDependencies": {
 		"@babel/cli": "^7.8.4",
 		"@babel/core": "^7.9.0",
@@ -16,12 +24,12 @@
 		"@babel/preset-env": "^7.9.5",
 		"babel-loader": "^8.1.0",
 		"babel-plugin-transform-object-rest-spread": "^6.26.0",
-		"webpack": "^4.42.1",
-		"webpack-cli": "^3.3.11",
-		"webpack-dev-server": "^3.10.3",
 		"css-loader": "^3.5.3",
 		"mini-css-extract-plugin": "^0.9.0",
 		"optimize-css-assets-webpack-plugin": "^5.0.3",
-		"terser-webpack-plugin": "^2.3.6"
+		"terser-webpack-plugin": "^2.3.6",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0"
 	}
 }
